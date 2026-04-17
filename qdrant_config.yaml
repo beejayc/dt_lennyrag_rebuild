@@ -1,0 +1,13 @@
+server:
+  host: 127.0.0.1
+  port: 6333
+  max_request_size_mb: 256
+
+storage:
+  storage_path: ./qdrant_storage
+  snapshots_path: ./qdrant_storage/snapshots
+  wal:
+    wal_capacity_mb: 32
+    wal_segments_ahead: 0
+
+log_level: info
